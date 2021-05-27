@@ -1,0 +1,9 @@
+package com.hoangkhanh.jstltutorial.utils;
+
+public class DBUtils {
+	private static final List<Dept> DEPARTMENTS = new ArrayList<Dept>();
+
+	static {
+		initData();
+	}
+}

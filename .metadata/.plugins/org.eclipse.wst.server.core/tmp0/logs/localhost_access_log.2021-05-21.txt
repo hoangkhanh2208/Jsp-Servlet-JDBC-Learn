@@ -1,0 +1,15 @@
+127.0.0.1 - - [21/May/2021:10:51:50 +0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:51:51 +0700] "GET /JavaWebMVC/view/login.jsp HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:52:13 +0700] "GET /JavaWebMVC/login HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:52:34 +0700] "POST /JavaWebMVC/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:52:34 +0700] "GET /JavaWebMVC/welcome HTTP/1.1" 200 153
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:53:57 +0700] "GET /JavaWebMVC/login HTTP/1.1" 200 497
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:56:41 +0700] "POST /JavaWebMVC/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:56:41 +0700] "GET /JavaWebMVC/login?err=1 HTTP/1.1" 200 538
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:56:47 +0700] "POST /JavaWebMVC/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:56:47 +0700] "GET /JavaWebMVC/login?err=1 HTTP/1.1" 200 538
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:56:55 +0700] "POST /JavaWebMVC/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [21/May/2021:10:56:55 +0700] "GET /JavaWebMVC/welcome HTTP/1.1" 200 153
+0:0:0:0:0:0:0:1 - - [21/May/2021:11:21:21 +0700] "GET /JavaWebMVC/welcome HTTP/1.1" 200 153
+127.0.0.1 - - [21/May/2021:11:22:17 +0700] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [21/May/2021:11:22:18 +0700] "GET /JavaWebMVC/view/welcome.jsp HTTP/1.1" 200 153

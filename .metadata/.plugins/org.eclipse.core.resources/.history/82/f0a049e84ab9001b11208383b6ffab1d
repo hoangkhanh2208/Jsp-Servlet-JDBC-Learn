@@ -1,0 +1,5 @@
+package com.jsptutorial.beans;
+
+public class HelloBean {
+
+}

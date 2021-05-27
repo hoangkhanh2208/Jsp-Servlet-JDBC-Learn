@@ -1,0 +1,5 @@
+package com.hoangkhanh.webmvc.service;
+
+public class UserService {
+
+}

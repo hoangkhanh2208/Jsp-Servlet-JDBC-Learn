@@ -1,0 +1,25 @@
+package com.jsptutorial.Utils;
+
+import java.io.IOException;
+
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.jsp.JspWriter;
+
+public class CookieUtils {
+	public static void demoUserCookie(HttpServletRequest request, HttpServletResponse response, JspWriter out) throws IOException {
+		boolean found = false;
+		
+		Cookie[] cookies = request.getCookies();
+		if (cookies != null && cookies.length > 0) {
+			String userName = null;
+			String lastLoginDatetime = null;
+			out.println("<h3>Cookies:</h3>");
+			
+			for (int i = 0; i < cookies.length; i++) {
+				out.println(cookies[i].getName() + " : " + cookies[i].getValue() + "</br>");
+			}
+		}
+	}
+}

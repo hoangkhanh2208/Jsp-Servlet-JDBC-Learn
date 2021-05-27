@@ -1,0 +1,5 @@
+package com.hoangkhanh.jstltutorial.utils;
+
+public class DBUtils {
+
+}

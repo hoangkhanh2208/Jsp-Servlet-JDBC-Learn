@@ -1,0 +1,5 @@
+package com.simplewebapp.filter;
+
+public class JDBCFilter {
+
+}

@@ -1,0 +1,29 @@
+<%@page import="java.util.Random"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<% response.setContentType("text/html"); %>
+	<%Random rd = new Random();
+		int randomInt = rd.nextInt(3);
+		
+		if(randomInt == 0){
+	%>
+	
+	<h1>Random value = <%= randomInt %></h1>
+	
+	<%}else if(randomInt == 1){ %>
+	
+	<h2>Random value = <%= randomInt %></h2>
+	<%}else{%>
+	<h3>Random value = <%= randomInt %></h3>
+	<%} %>
+	
+	<a href="<%= request.getRequestURI()%> ">Try again</a>
+</body>
+</html>

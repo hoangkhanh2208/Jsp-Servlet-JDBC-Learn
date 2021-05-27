@@ -1,0 +1,17 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<jsp:useBean id="helloBean" class="com.jsptutorial.beans.HelloBean"></jsp:useBean>
+	
+	<h3>Say Hello:</h3>
+	<jsp:getProperty property="hello" name="helloBean"/>
+	<jsp:setProperty property="hello" name="hellobean" value="Khanh"/>
+</body>
+</html>

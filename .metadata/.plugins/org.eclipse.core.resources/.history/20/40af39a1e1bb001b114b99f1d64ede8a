@@ -1,0 +1,10 @@
+package com.hoangkhanh.jstltutorial.beans;
+
+public class Emp {
+	private int empNo;
+    private String empName;
+    private String job;
+ 
+    private Date hireDate;
+    private float salary;
+}

@@ -1,0 +1,11 @@
+package com.hoangkhanh.beans;
+
+public class Authenticator {
+	public boolean authenticator(UserAccount user) {
+		if("admin".equals(user.getUserName()) && "123".equals(user.getPassword())) {
+			return true;
+		}else {
+			return false;
+		}
+	}
+}

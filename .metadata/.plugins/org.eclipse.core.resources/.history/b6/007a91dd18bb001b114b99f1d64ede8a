@@ -1,0 +1,5 @@
+package com.hoangkhanh.beans;
+
+public class UserAccount {
+
+}

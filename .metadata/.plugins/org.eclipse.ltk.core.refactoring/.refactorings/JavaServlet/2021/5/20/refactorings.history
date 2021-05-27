@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.javaServlet.sessionVD.ServletSessionExample&apos; to &apos;SessionTrack&apos;&#x0D;&#x0A;- Original project: &apos;JavaServlet&apos;&#x0D;&#x0A;- Original element: &apos;com.javaServlet.sessionVD.ServletSessionExample&apos;&#x0D;&#x0A;- Renamed element: &apos;com.javaServlet.sessionVD.SessionTrack&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ServletSessionExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.javaServlet.sessionVD{ServletSessionExample.java[ServletSessionExample" matchStrategy="1" name="SessionTrack" qualified="false" references="true" similarDeclarations="false" stamp="1621089579078" textual="false" version="1.0"/>
+</session>

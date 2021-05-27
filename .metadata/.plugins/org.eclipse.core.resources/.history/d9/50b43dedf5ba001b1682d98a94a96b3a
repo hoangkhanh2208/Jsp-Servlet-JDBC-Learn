@@ -1,0 +1,5 @@
+package com.simplewebapp.servlet;
+
+public class HomeServlet {
+
+}

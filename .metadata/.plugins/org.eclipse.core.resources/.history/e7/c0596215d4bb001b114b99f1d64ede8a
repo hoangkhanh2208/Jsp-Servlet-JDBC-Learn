@@ -1,0 +1,5 @@
+package com.hoangkhanh.utils;
+
+public class ReadPropertiesLibrary {
+
+}

@@ -1,0 +1,5 @@
+package com.hoangkhanh.webmvc.controller;
+
+public class WelcomeController {
+
+}
